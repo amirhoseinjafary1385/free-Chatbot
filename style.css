@@ -1,0 +1,52 @@
+.stButton > button {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 155px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    animation: colorChange 6s infinite; /* انیمیشن رنگی */
+    background: none;
+  
+}
+/* تعریف انیمیشن */
+@keyframes colorChange {
+    0% {
+        background-color: rgb(76, 175, 80);
+    }
+    33% {
+        background-color: rgb(255, 193, 7);
+    }
+    67% {
+        background-color: rgb(244, 67, 54);
+    }
+    100% {
+        background-color: rgb(76, 175, 80);
+    }
+}
+
+h1  {
+    text-align: center;
+    font-size: 30px;
+}
+#text_area_1 {
+    text-align: center;
+    animation: borderColorChange 4s infinite;
+    color: rgba(7, 255, 82, 0.568);
+    font-size: 30px;
+    max-width: 100%;
+}
+
+p body {
+    text-align: center;
+    background-color: #525252;
+}
+
+
+@keyframes borderColorChange {
+    0% { border: 2px solid rgb(76, 175, 80); }  /* سبز */
+    50% { border: 2px solid rgb(255, 235, 59); }  /* زرد */
+    100% { border: 2px solid rgb(244, 67, 54); }  /* قرمز */
+}
