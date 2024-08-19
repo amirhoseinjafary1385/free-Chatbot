@@ -10,10 +10,20 @@ terminal:
 pip install -r requirements.txt
 
 
+Linux:
+
+python3 -m venv venv
+
+source ./venv/bin/activate
 
 
 
+window:
 
+python -m venv venv
+
+
+source ./venv/scripts/activate
 
 
 
